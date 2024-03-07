@@ -1,0 +1,202 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Quicksand', sans-serif; /* Use Quicksand font */
+    line-height: 1.6;
+}
+
+/* Global styles */
+body {
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header styles */
+header {
+    text-align: center;
+    margin: 40px 0;
+}
+
+h1 {
+    font-size: 2.5em;
+    color: #2c3e50;
+}
+
+p {
+    font-size: 1.2em;
+    color: #7f8c8d;
+}
+
+/* About section styles */
+#about {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+img {
+    border-radius: 50%;
+    max-width: 25%;
+    height: 200px;
+    margin-bottom: 20px;
+}
+
+/* Skills section styles */
+#skills {
+    margin-bottom: 40px;
+}
+
+h2 {
+    font-size: 2em;
+    color: #2c3e50;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+li {
+    margin: 0 15px;
+    padding: 10px;
+    background-color: #3498db;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+li:hover {
+    background-color: #2980b9;
+}
+
+/* Projects section styles */
+/* #projects {
+    margin-bottom: 40px;
+}
+
+.project {
+    margin-bottom: 30px;
+}
+
+.project img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    transition: transform 0.3s ease;
+} */
+
+.project:hover img {
+    transform: scale(1.1);
+}
+
+/* Resume section styles */
+#resume {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #27ae60;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+a:hover {
+    background-color: #219952;
+}
+
+/* Contact section styles */
+#contact {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+/* Footer styles */
+footer {
+    background-color: #2c3e50;
+    color: #ecf0f1;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #ecf0f1;
+    transition: color 0.3s ease;
+}
+
+ul li a:hover {
+    color: #bdc3c7;
+}
+
+
+
+/* Add these styles to your existing CSS */
+
+/* Projects section styles */
+#projects {
+    text-align: center; /* Center the content horizontally */
+    margin-bottom: 40px;
+}
+
+.project {
+    display: inline-block; /* Display projects next to each other */
+    margin: 0 20px; /* Add some spacing between projects */
+    text-align: left; /* Align text to the left */
+}
+
+.project img {
+    max-width: 50%;
+    height: 200px;
+    border-radius: 5px;
+    transition: transform 0.3s ease;
+}
+
+.project h3 {
+    margin-top: 10px; /* Add some space between image and heading */
+}
+
+.project p {
+    margin-bottom: 20px; /* Add some space between heading and description */
+}
+
+.project:hover img {
+    transform: scale(1.1);
+}
+
+
+#project2
+{
+    max-width: 80%;
+    height: 200px;
+}
